@@ -33,8 +33,8 @@ module uo_outonacci_8bit (
 reg [7:0] LV;
 
 
-    LV = 8'd0;   // Primer número de la serie (0)
-    uo_out = 8'd1;  // Segundo número de la serie (1)
+    //LV = 8'd0;   // Primer número de la serie (0)
+    //uo_out = 8'd1;  // Segundo número de la serie (1)
 
 
 always @(posedge clk) begin
