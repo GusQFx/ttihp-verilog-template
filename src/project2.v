@@ -18,7 +18,7 @@ module tt_um_example (
   // List all unused inputs to prevent warnings
   wire _unused = &{ena, clk, rst_n, 1'b0};
 
-  reg [7:0] fib
+  reg [7:0] fib;
   assign uo_out = fib;
 
 
