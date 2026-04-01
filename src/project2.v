@@ -19,7 +19,7 @@ module tt_um_example (
   wire _unused = &{ena, clk, rst_n, 1'b0};
 
   reg [7:0] fib
-  assign wire uo_out = fib;
+  assign uo_out = fib;
 
 
 
