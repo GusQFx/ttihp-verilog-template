@@ -32,10 +32,10 @@ module uo_outonacci_8bit (
 // Trabajar desde aquí
 reg [7:0] LV;
 
-initial begin
+
     LV = 8'd0;   // Primer número de la serie (0)
     uo_out = 8'd1;  // Segundo número de la serie (1)
-end
+
 
 always @(posedge clk) begin
     uo_out <= LV + uo_out; // El nuevo valor de uo_out es la suma de los dos anteriores
