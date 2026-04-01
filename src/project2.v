@@ -18,7 +18,7 @@ module tt_um_example (
   // List all unused inputs to prevent warnings
   wire _unused = &{ena, clk, rst_n, 1'b0};
 
-endmodule
+
 
 
 
@@ -45,7 +45,7 @@ end
 
 endmodule
 
-
+/*
 /* 
  * Testbench para módulo uo_outonacci_8bit
 */
@@ -78,3 +78,5 @@ module main;
       $finish;
   end
   endmodule
+
+  */
