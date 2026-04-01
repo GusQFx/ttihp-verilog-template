@@ -21,8 +21,6 @@ module tt_um_example (
   reg [7:0] fib;
   assign uo_out = fib;
 
-
-
 /*
 module uo_outonacci_8bit (
     input clk,
@@ -39,8 +37,8 @@ reg [7:0] LV;
 
 
 always @(posedge clk) begin
-    uo_out <= LV + uo_out; // El nuevo valor de uo_out es la suma de los dos anteriores
-    LV  <= uo_out;      // LV guarda el valor que tenía uo_out antes de la suma
+    fib <= LV + fib; // El nuevo valor de uo_out es la suma de los dos anteriores
+    LV  <= fib;      // LV guarda el valor que tenía uo_out antes de la suma
 end
 // Hasta aquí, no modificar fuera de este segmento
 
