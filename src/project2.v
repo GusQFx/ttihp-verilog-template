@@ -46,9 +46,9 @@ end
 endmodule
 
 /*
-/* 
+
  * Testbench para módulo uo_outonacci_8bit
-*/
+
 module main;
   // Señales del testbench
   reg clk;
