@@ -28,12 +28,7 @@ module tt_um_example (
             .input_IR(ui_in),
             .ALU_Out_CPU(uo_out)
           );
-/*
-module uo_outonacci_8bit (
-    input clk,
-    output reg [7:0] uo_out
-);
-*/
+
 endmodule
 
 module CPU (
